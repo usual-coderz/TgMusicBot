@@ -28,7 +28,7 @@ var (
 	MongoUri            = os.Getenv("MONGO_URI")
 	DbName              = getEnv("DB_NAME", "Anon")
 	ApiUrl              = getEnv("API_URL", "https://api.onegrab.fun")
-	ApiKey              = os.Getenv("API_KEY")
+	ApiKey              = os.Getenv("API_KEY", "0040c5_gixJkmbQwaHNdQcrfuNDGxQ5PKnItWRp")
 	OwnerId             = getEnvInt64("OWNER_ID", 0)
 	LoggerId            = getEnvInt64("LOGGER_ID", 0)
 	Proxy               = os.Getenv("PROXY")
